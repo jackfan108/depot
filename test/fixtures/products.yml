@@ -12,6 +12,12 @@ two:
   image_url: MyString
   price: 9.99
 
+three:
+  title: dfsa;
+  description: fjdsakl;fja;
+  image_url: fdjakl;fjdsakl
+  price: 10000
+
 ruby:
   title:      Programming Ruby 1.9
   description:
