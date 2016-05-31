@@ -22,5 +22,7 @@ module Depot
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    # https://forums.pragprog.com/forums/148/topics/11541
+    config.autoload_paths += %W(#{config.root}/app/controllers/concerns)
   end
 end
